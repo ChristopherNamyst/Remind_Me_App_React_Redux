@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
+//Action aka javascript object, will need an action creator! Thanks REDUX//
+
 
 
 class App extends Component {
