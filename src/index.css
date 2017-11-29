@@ -1,4 +1,23 @@
+@font-face {
+      font-family: 'Tr2n';
+      src: url('./fonts/Tr2n.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+
+
+
+
+
+
+body {
+  background-color: #153042;
+
+}
+
 .App {
+
   padding-top: 20px;
   display: flex;
   flex-direction: column;
@@ -6,8 +25,10 @@
 }
 
 .title {
+  color: #77ebef;
+  font-family: 'Tr2n', sans-serif;
   text-align: center;
-  font-size: 26px;
+  font-size: 48px;
 }
 
 input {
