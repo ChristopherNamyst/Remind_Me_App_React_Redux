@@ -3,7 +3,6 @@ import { bake_cookie, read_cookie } from 'sfcookies';
 
 
 
-
 const reminder = (action) => {
   let { text, dueDate } = action;
   return {
@@ -18,7 +17,6 @@ const removeById = (state = [], id) => {
   console.log('new reduced reminders', reminders);
   return reminders;
 }
-
 
 
 const reminders = (state = [], action) => {

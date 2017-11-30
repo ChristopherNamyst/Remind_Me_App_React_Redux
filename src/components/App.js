@@ -67,7 +67,7 @@ class App extends Component {
             />
           </div>
           <button
-            type="button"
+
             className="btn btn-success"
             onClick={() => this.addReminder()}
           >
@@ -81,7 +81,12 @@ class App extends Component {
         >
           Clear Reminders
         </div>
+        <div className="footer"
+        >
+          Remind-A-Tron Built And Designed By Christopher N
+        </div>
       </div>
+
     )
   }
 }
